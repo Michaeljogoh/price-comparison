@@ -1,0 +1,10 @@
+#home{
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.9)) 
+    ,url(/images/lap.jpg)center/cover no-repeat;
+}
+.height{
+    min-height : 60vh;
+}
+.table-bordered > tbody > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > thead > tr > th {
+    border: 1px solid rgba(0, 128, 0, 0.974);
+}

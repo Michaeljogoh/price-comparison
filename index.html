@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Uleval Shopping</title>
+
+    <!-- Font Awesome -->
+    <script src="js/fontawesome-all.js"></script>
+    
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <div class="container">
+        <a class="navbar-brand text-success" href="#">Uleval Shopping</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2 text-success" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+    </div>
+  </nav>
+
+  <!-- header -->
+  <header id="home">
+      <div class="container">
+          <div class="row height align-items-center py-5">
+              <div class="col">
+                  <p class="text-capitalize text-center text-white">
+                      get prices of phone and laptop from different sources
+                  </p>
+                  <form class="form-inline my-2 my-lg-0 justify-content-center">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search for an item" aria-label="Search">
+
+                    <div class="text-center pt-3 col-sm-12">
+                        <select class="form-select form-control form-select-sm mb-3" aria-label=".form-select-lg example">
+                            <option selected>Select a source</option>
+                            <option value="1">Jumia Price</option>
+                            <option value="2">Konga Price</option>
+                            <option value="3">Jiji Price</option>
+                            <option value="4">Amazon Price</option>
+                          </select>
+                          
+                          <select class="form-select form-control form-select-sm mb-3" aria-label=".form-select-sm example">
+                            <option selected>Select a source</option>
+                            <option value="1">Jumia Price</option>
+                            <option value="2">Konga Price</option>
+                            <option value="3">Jiji Price</option>
+                            <option value="4">Amazon Price</option>
+                          </select>
+                    </div>
+
+                    <button class="btn btn-outline-success m-2 my-sm-0" type="submit">Search</button>
+                  </form>
+
+              </div>
+          </div>
+      </div>
+  </header>
+
+  <!-- table for displaying items and their pricing -->
+  <div class="container">
+      <table class="table table-bordered my-5">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Item</th>
+              <th scope="col">Jumia Price</th>
+              <th scope="col">Jiji Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>iphone 11</td>
+              <td>N300,000</td>
+              <td>N400,000</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>HP Pavillion</td>
+              <td>N500,000</td>
+              <td>N435,000</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>HP Pavillion</td>
+              <td>N500,000</td>
+              <td>N435,000</td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>Acer</td>
+              <td>N300,000</td>
+              <td>N220,000</td>
+            </tr>
+            <tr>
+              <th scope="row">5</th>
+              <td>infinix hot 10</td>
+              <td>N120,000</td>
+              <td>N80,000</td>
+            </tr>
+            <tr>
+              <th scope="row">6</th>
+              <td>HP Pavillion</td>
+              <td>N500,000</td>
+              <td>N435,000</td>
+            </tr>
+            <tr>
+              <th scope="row">8</th>
+              <td>HP Pavillion</td>
+              <td>N500,000</td>
+              <td>N435,000</td>
+            </tr>
+            <tr>
+              <th scope="row">9</th>
+              <td>HP Pavillion</td>
+              <td>N500,000</td>
+              <td>N435,000</td>
+            </tr>
+            <tr>
+              <th scope="row">10</th>
+              <td>HP Pavillion</td>
+              <td>N500,000</td>
+              <td>N435,000</td>
+            </tr>
+          </tbody>
+        </table>
+  </div>
+
+  <!-- footer -->
+  <footer class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <p class="copyright text-center">&copy; Copyright Uleval Shopping
+                    <span class="date"></span>. All Rights Reserved</p>
+                    <p class="text-center" href="https://elochukwuekwugha.netlify.app">Developed by  <a href="https://elochukwuekwugha.netlify.app" class="text-success" >Ekwugha Elochukwu </a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- end of footer -->
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
+  crossorigin="anonymous"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
